@@ -1,0 +1,14 @@
+html {
+  box-sizing: border-box;
+  font-family Open Sans;
+  /* background-color:  */
+
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+h1 {
+  text-align: center;
+}
