@@ -11,8 +11,9 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
-  font-family: "Open Sans";
-  line-height: 1.5
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.5;
+  background-color: #ccc;
 }
 
 *, *::before, *::after {
@@ -23,30 +24,32 @@ body {
   margin: 0;
 }
 
+section {
+  margin: 1.5rem;
+}
+
 h2 {
   text-align: center;
-  padding-top: 1rem;
 }
 
 ul {
-  margin: 0;
   display: flex;
+  margin: 0;
+  padding: 0;
   flex-direction: column;
+  justify-content: center;
 }
 
 li {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 1rem;
 }
 
 img {
   width: 5rem;
-  margin: 1.5rem;
-}
-
-hgroup {
-  margin: 1.5rem;
+  margin: .5rem;
 }
 
 h3 {
@@ -58,9 +61,15 @@ h4 {
 }
 
 p {
-  margin: 1.5rem;
+  color: #000;
+  display: flex;
+  width: 24rem;
 }
 
 a {
-  margin: 1.5rem;
+  margin: .5rem;
+  padding: .5rem 1rem .6rem;
+  background-color: #444;
+  color: #fff;
+  text-decoration: none;
 }
